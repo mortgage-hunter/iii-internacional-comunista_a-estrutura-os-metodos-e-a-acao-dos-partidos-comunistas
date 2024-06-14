@@ -62,6 +62,12 @@
 			<reason>This titlecase is correct for "pt-BR"</reason>
 		</ignore>
 	</file>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>This titlecase is correct for "pt-BR"</reason>
+		</ignore>
+	</file>
 	<file path="workflows">
 		<ignore>
 			<code>f-008</code>
