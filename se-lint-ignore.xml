@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<!-- <file path=".gitignore">
-	<ignore>
-	<code>f-008</code>
-	<reason>File unrelated to the book.</reason>
-	</ignore>
-	</file> -->
+	<file path=".gitignore">
+		<ignore>
+			<code>f-008</code>
+			<reason>File unrelated to the book.</reason>
+		</ignore>
+	</file>
 	<file path="colophon.xhtml">
 		<ignore>
 			<code>s-032</code>
@@ -28,10 +28,10 @@
 			<reason>This titlecase is correct for "pt-BR"</reason>
 		</ignore>
 	</file>
-	<!-- <file path="workflows">
-	<ignore>
-	<code>f-008</code>
-	<reason>Path unrelated to the book.</reason>
-	</ignore>
-	</file> -->
+	<file path="workflows">
+		<ignore>
+			<code>f-008</code>
+			<reason>Path unrelated to the book.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
