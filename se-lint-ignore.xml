@@ -51,6 +51,16 @@
 			<code>s-023</code>
 			<reason>This titlecase is correct for "pt-BR"</reason>
 		</ignore>
+		<ignore>
+			<code>t-032</code>
+			<reason>The abbreviation is followed by ellipsis</reason>
+		</ignore>
+	</file>
+	<file path="chapter-7.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>This titlecase is correct for "pt-BR"</reason>
+		</ignore>
 	</file>
 	<file path="workflows">
 		<ignore>
