@@ -20,8 +20,8 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
-		<dc:title id="title">A Estrutura, Os Métodos E a Ação Dos Partidos Comunistas</dc:title>
-		<meta property="file-as" refines="#title">Estrutura, Os Métodos E a Ação Dos Partidos Comunistas, A</meta>
+		<dc:title id="title">A Estrutura, os Métodos e a Ação dos Partidos Comunistas</dc:title>
+		<meta property="file-as" refines="#title">Estrutura, Métodos e Ação dos Partidos Comunistas</meta>
 		<dc:subject id="subject-1">Socialism</dc:subject>
 		<dc:subject id="subject-2">Communism</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
