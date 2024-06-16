@@ -8,8 +8,8 @@ on:
 permissions:
   contents: write
 
-jobs:
-  publish:
+jobs:      
+  build-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,20 +20,23 @@ jobs:
 
       - name: "⚙ environment"
         run: |
-          sudo apt-get install -y libcairo2
+          sudo apt-get install -qq libcairo2
 
-          python3 -m pip install --user pipx
-          python3 -m pipx ensurepath
+          python3 -m pip install -q --user pipx
+          python3 -m pipx ensurepath --force
           pipx install 'standardebooks==2.6.4'
 
-      # - name: "🔎 lint"
-
-      - name: "🔧 build"
+      - name: "🧹 clean and formatting"
         run: |
-          se build-images .
-          se build .
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+          se clean .
+          se build-manifest .
+
+      - name: "🔎 lint"
+        run: se lint .
+
+      - name: "🔧 build book"
+        run: |
+          se build --kobo .
 
       - name: "🚀 release" 
         uses: softprops/action-gh-release@v2
@@ -43,4 +46,6 @@ jobs:
           fail_on_unmatched_files: true
           make_latest: true
           # body_path: CHANGELOG.md
-          files: ${{ github.event.repository.name }}.epub
+          files: "*.epub"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
