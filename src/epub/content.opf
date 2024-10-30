@@ -5,7 +5,7 @@
 		<dc:identifier id="url">url:https://github.com/MortgageHunter/iii-internacional-comunista_a-estrutura-os-metodos-e-a-acao-dos-partidos-comunistas</dc:identifier>
 		<dc:date>2024-06-14T12:26:00Z</dc:date>
 		<meta property="dcterms:modified">2024-06-16T17:21:00Z</meta>
-		<dc:rights>This ebook is under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.</dc:rights>
+		<dc:rights>This ebook is under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</dc:rights>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="z3998:http" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
@@ -64,6 +64,7 @@
 		<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-8.xhtml" id="chapter-8.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/copyleft.xhtml" id="copyleft.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -80,5 +81,6 @@
 		<itemref idref="chapter-7.xhtml"/>
 		<itemref idref="chapter-8.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
+		<itemref idref="copyleft.xhtml"/>
 	</spine>
 </package>
