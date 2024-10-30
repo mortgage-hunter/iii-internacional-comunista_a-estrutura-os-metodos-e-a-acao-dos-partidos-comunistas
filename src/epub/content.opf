@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="pt-BR">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">iii-internacional-comunista/a-estrutura-os-metodos-e-a-acao-dos-partidos-comunistas</dc:identifier>
-		<dc:identifier id="url">url:https://github.com/MortgageHunter/iii-internacional-comunista_a-estrutura-os-metodos-e-a-acao-dos-partidos-comunistas</dc:identifier>
+		<dc:identifier id="url">url:https://codeberg.org/mortgage-hunter/iii-internacional-comunista_a-estrutura-os-metodos-e-a-acao-dos-partidos-comunistas</dc:identifier>
 		<dc:date>2024-06-14T12:26:00Z</dc:date>
 		<meta property="dcterms:modified">2024-06-16T17:21:00Z</meta>
 		<dc:rights>This ebook is under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</dc:rights>
@@ -43,9 +43,9 @@
 		<dc:contributor id="transcriber-2">Fernando Araújo</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Araújo, Fernando</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">MortgageHunter</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">MortgageHunter</meta>
-		<meta property="z3998:http" refines="#transcriber-3">https://github.com/MortgageHunter/</meta>
+		<dc:contributor id="transcriber-3">mortgage-hunter</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">mortgage-hunter</meta>
+		<meta property="z3998:http" refines="#transcriber-3">https://codeberg.org/mortgage-hunter</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 	</metadata>
 	<manifest>
