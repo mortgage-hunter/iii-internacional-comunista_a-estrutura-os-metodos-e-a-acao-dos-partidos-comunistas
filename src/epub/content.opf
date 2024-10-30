@@ -5,7 +5,7 @@
 		<dc:identifier id="url">url:https://codeberg.org/mortgage-hunter/iii-internacional-comunista_a-estrutura-os-metodos-e-a-acao-dos-partidos-comunistas</dc:identifier>
 		<dc:date>2024-06-14T12:26:00Z</dc:date>
 		<meta property="dcterms:modified">2024-06-16T17:21:00Z</meta>
-		<dc:rights>This ebook is under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</dc:rights>
+		<dc:rights>This ebook is under the<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</dc:rights>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="z3998:http" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
