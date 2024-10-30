@@ -16,10 +16,10 @@
 			<reason>File unrelated to the book.</reason>
 		</ignore>
 	</file>
-	<file path="cover.svg">
+	<file path="workflows">
 		<ignore>
-			<code>s-028</code>
-			<reason>I really don't see where this error is coming from.</reason>
+			<code>f-008</code>
+			<reason>File unrelated to the book.</reason>
 		</ignore>
 	</file>
 	<file path="colophon.xhtml">
@@ -71,10 +71,6 @@
 			<code>s-023</code>
 			<reason>This titlecase is correct for "pt-BR"</reason>
 		</ignore>
-		<ignore>
-			<code>t-032</code>
-			<reason>The abbreviation is followed by ellipsis</reason>
-		</ignore>
 	</file>
 	<file path="chapter-7.xhtml">
 		<ignore>
@@ -86,12 +82,6 @@
 		<ignore>
 			<code>s-023</code>
 			<reason>This titlecase is correct for "pt-BR"</reason>
-		</ignore>
-	</file>
-	<file path="workflows">
-		<ignore>
-			<code>f-008</code>
-			<reason>Path unrelated to the book.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
